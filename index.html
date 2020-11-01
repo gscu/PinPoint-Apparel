@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Pinpoint Adventures</title>
+	<meta name="title" content="Pinpoint Adventures | A JA Company" />
+	<meta name="description" content="Pinpoint Adventures is a.........." />
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<meta content="" property="og:url" />
+	<meta content="" property="og:image" />
+	<link rel="shortcut icon" id="favicon" href="favicon.png">
+	<meta name="author" content="Pinpoint Adventures IT Dept">
+
+	<!-- Animation -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+
+	<!-- Styles -->
+	<link href='css/onepage-scroll.css' rel='stylesheet'>
+	<link href='css/style.css' rel='stylesheet'>
+
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+	<!-- Bootstrap core -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/jquery.onepage-scroll.min.js"></script>
+
+	<!-- 3D Effect -->
+	<link href="css/perspectiveRules.css" rel="stylesheet" />
+	<script src="js/jquery.logosDistort.min.js"></script>
+
+	<!-- SweetAlert -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.9/sweetalert2.all.min.js"></script>
+
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+	<!-- Google Maps -->
+	<script src="js/map.js"></script>
+
+	<script>
+		// Load 3D effect
+		$(document).ready(function() {
+			var options = {
+				effectWeight: 1,
+				outerBuffer: 1.08,
+				elementDepth: 200,
+				perspectiveMulti: 0.65,
+				enableSmoothing: true
+			};
+			$("#distort").logosDistort(options);
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="main">
+
+			<section id="distort" class="page1">
+				<img src="img/toronto_blur.jpg">
+				<div class="page_container">
+					<div class="container">
+						<div class="row">
+							<div class="text_container animated fadeInLeft px-5 col-sm-8 text-center">
+								<h1 class="display-3 text-center mb-3">Pinpoint Apparel</h1>
+								<!-- <img class="img-fluid" src="img/logo.png" alt="Pinpoint Apparel"> -->
+								<h3>Pinpoint Apparel is an all new apparel company that is helping Torontonian youth discover their city's hidden gems.</h3>
+							</div>
+							<div class="marker animated slideInDown col-sm-4 my-auto d-none d-sm-block">
+								<i class="fas fa-map-marker-alt fa-10x ml-5"></i>
+								<div class="marker_ring"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Jenisha -->
+			<!-- Mission Statement + Introduction/Product description -->
+			<section class="page2">
+			<img src="img/bus_blur1.png">
+				<div class="page_container">
+					<div id="intro_slides">
+						<div>
+							<h1 class="display-3 partner_slide text-center mb-3">What is Pinpoint Apparel?</h4>
+							<h2>
+								Pinpoint Apparel is a youth-run social enterprise under the Junior Achievement Company Program,
+								aiming to empower small businesses and the local economy.
+							</h2>
+						</div>
+
+						<div>
+							<h1 class="display-3 partner_slide text-center mb-3">Our Mission</h4>
+							<h2>
+								Our mission is to bring attention to emerging unique locations around Toronto with one of a kind apparel.
+								By empowering small businesses and helping them find exposure, we encourage Torontonians to seek out
+								new adventures in the city. This discovery of new aspects of Toronto will not only highlight our
+								highly praised cultural diversity, but also the warm, welcoming side of the city.
+							</h2>
+						</div>
+
+						<div>
+							<h1 class="display-3 partner_slide text-center mb-3">Our Apparel</h4>
+							<h2>
+								Our premium sweaters are carefully embroidered with our logo and each piece of apparel is uniquely
+								designed with a picture specific to our partners. With each sweater, comes a unique adventure and for every
+								sweater sold, Pinpoint employees will complete an hour of community service. Get your Pinpoint Sweater today and
+								discover the hidden gems of Toronto!!
+							</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Partners -->
+			<section class="page3">
+				<div class="page_container">
+					<h1>Our partners</h1>
+					<div id="partners_slides">
+						<div>
+							<h4 class="partner_slide text-center">Partner 1</h4></div>
+						<div>
+							<h4 class="partner_slide text-center">Partner 2</h4></div>
+						<div>
+							<h4 class="partner_slide text-center">Partner 3</h4></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Gheorghe -->
+			<!-- About the team -->
+			<!-- ***FOR THE CLICK ON PIC ATTRIBUTE THE FOLLOWING COMMENTS SHOULD BE PLACE IN ACCORDANCE TO EXECUTIVE MEMBERS*** Thanks-->
+			<!--Pinpoint isn’t any ordinary Toronto clothing brand. Our mission is to promote local businesses through the articles of clothing. As a company run by students, we are able to quickly identify our target market, young individuals who are socially-conscious and want more than apparel; an adventure. One of the greatest advantages of being a student-run company is that we are part of the target market and have connections to our market through school and other extracurricular activities.
+				-->
+			<section class="page5">
+				 <img src="img\toronto_blurry.png">
+				<div class="page_container">
+					<h1><b>About our Team</b></h1>
+					<div id="team_pic">
+					<h4><i>Executives</i></h4>
+
+					</div>
+					<div id="exec_slides">
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/wasiq.jpg" />
+							<h4 class="partner_slide text-center"><i>President</i></h4>
+							<!-- President- Wasiq Wadud
+							Wasiq has developed his leadership and business knowledge through a wealth of experiences through Junior Achievement, school and other extra-curriculars. He was President of last year’s Company of the Year, Bézh. Under his leadership he was able to lead them to win Company of the Year Canada, and led Canada to placing second in all of the JA Americas through their global competition in Sao Paulo, Brazil. He is also the President of his school’s business council, and worked as a Finance Clerk at BMO Nesbitt Burns. Wasiq believes his leadership and business experiences will lead Pinpoint Apparel to similar success.
+						-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/pat.jpg" />
+							<h4 class="partner_slide text-center"><i>VP Finance</i></h4>
+							<!-- Vice President of Finance- Patrick Feng
+							Patrick implements his knowledge and experience of accounting and finance through day school courses, leadership experiences and extracurricular involvement. Patrick uses his well-rounded personality attained from his extracurricular activities, such as the president of the Economics Club, a student mentor for his school, and a Front-End Supervisor at his part-time job to guide his department. Patrick believes that his accounting and finance knowledge will assist Pinpoint Apparel to success.
+						-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/Amy.jpg" />
+							<h4 class="partner_slide text-center"><i>VP Production</i></h4>
+							<!-- Vice President of Production- Amy Yi
+							Amy’s interest in business and entrepreneurship has led her to taking numerous business courses offered at Agincourt Collegiate Institute and starting her own online store. She has taken a leadership role as the vice-president of business council and senior representative of economics club. Amy’s involvements in numerous clubs and councils demonstrates her ability to work efficiently under pressure while leading a large group with diverse personalities. Her classroom knowledge and leadership experiences will serve as a contributing asset for Pinpoint Apparel.
+						-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/tharun.jpg" />
+							<h4 class="partner_slide text-center"><i>VP CSR</i></h4>
+							<!-- Vice President of Corporate Social Responsibility-Tharun Ragulan
+							Tharun is very passionate about creating a positive effect on society and demonstrates this through his community involvement. For most of his life, he has been involved with many projects in the community. He is a leader in CIRCLE (Tamil youth empowerment group), an Air Cadet, and has over one-hundred and forty community service hours.  His creativeness along for his dedication to impacting society will ultimately lead Pinpoint Apparel to success.
+						 -->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/mel.jpg" />
+							<h4 class="partner_slide text-center"><i>VP Marketing</i></h4>
+							<!-- Vice President of Marketing- Melanie de Ocampo
+							Melanie has demonstrated her unique sense of creativity through her many marketing efforts as Agincourt Collegiate Student Administrative Council Formal Chair and African Caribbean Club Publicity Chair. Her ability to think up new, innovative ways to market different events, plus her thorough business leadership background, has and will continue to immensely help the department reach new heights.
+							-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/hussein.jpg" />
+							<h4 class="partner_slide text-center"><i>VP Sales</i></h4>
+							<!--
+				Vice President of Sales- Hussein Hassanali
+				Hussein has learned and applied many business skills through his experience with leading two start-up companies. Combining that experience with public speaking skills from working at the Ontario Science Centre and for the City of Toronto, Hussein leads the Sales department of Pinpoint Apparel.
+							-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/ravicha.jpg" />
+							<h4 class="partner_slide text-center"><i>VP Human Resources</i></h4>
+							<!-- Vice President of Human Resources- Ravicha Ravinthiran
+				Ravicha uses her knowledge and experience from her previous human resources positions to create a warm and welcoming space for company employees and executives. Through her leadership roles on the school’s robotics team, the athletic council and on other non-profit organizations she has learned how to effectively mitigate conflict and come up with effective solutions. Through working as a student host at the Ontario Science Centre, she brings her energetic and bubbly personality to all meetings, creating a fun space for the whole company.
+							-->
+						</div>
+						<div class="exec_profile">
+							<img class="img-fluid" data-lazy="img/exec/Jonathan.jpg" />
+							<h4 class="partner_slide text-left"><i>VP Information Technology</i></h4>
+							<!-- Vice President of Information Technology- Jonathan Gin
+				Jonathan is an aspiring developer that hopes to apply his technology background to help lead Pinpoint Apparel to success. In addition to taking the computer science course at school, Jonathan has also developed many pragmatic skills by attending numerous hackathons. Jonathan is involved in a wide variety of multidisciplinary extracurricular activities including but not limited to: Senior Media executive of the Agincourt Athletic Council, Agincourt student mentor and software developer for the Agincourt computer council.
+							-->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Frank -->
+			<!-- FAQ and Footer -->
+			<section class="page6">
+				<div class="page_container">
+					<h1>Pinpoint Team</h1>
+					<h2>Show off the team</h2>
+				</div>
+			</section>
+
+			<!-- <div class="map_container">
+				<div class="container-fluid" style="height: inherit;">
+					<div class="row" style="height: inherit;">
+						<div class="col-sm-4" id="map_sidebar">
+							<p>This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This
+								is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is
+								filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.This is filler text.</p>
+							Updated using JS
+						</div>
+						<div class="col-sm-8" id="map"></div>
+					</div>
+				</div>
+			</div> -->
+
+		</div>
+	</div>
+
+	<!-- Horizontal Slides -->
+	<script src="slick/slick.min.js"></script>
+	<script src="js/slides.js"></script>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</html>
